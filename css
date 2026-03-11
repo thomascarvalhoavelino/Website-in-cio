@@ -1,0 +1,20 @@
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,  sans-serif; /* Font family */
+    font-size: 25px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #ffffff; /* A cor do plano de fundo da página */
+    color: #008a22; /* A cor do texto */ 
+}
+h1 {
+    color: blue; /* A cor do cabeçalho */
+    font-size: 50px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+    border: 2px dashed rgb(255, 0, 0);
+}
+h1:hover {
+animation: color-change 1s infinite;
+}  
